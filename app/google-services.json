@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872765600432",
+    "project_id": "fir-storage-5d024",
+    "storage_bucket": "fir-storage-5d024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872765600432:android:77985a9eef8ef2d24f8175",
+        "android_client_info": {
+          "package_name": "com.example.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872765600432-brop0pqmdgh9urnntaomikv8u7oop7hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYaFGPTn0ZmgsPFWHcGtqLvv316QNVVNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872765600432-brop0pqmdgh9urnntaomikv8u7oop7hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
