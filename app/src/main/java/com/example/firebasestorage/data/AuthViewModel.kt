@@ -13,10 +13,13 @@ class AuthViewModel(var navController:NavHostController, var context:Context) {
         mAuth = FirebaseAuth.getInstance()
     }
     fun signup(email:String, password:String){
+        Toast.makeText(context, "Clicked $email", Toast.LENGTH_SHORT).show()
         mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener {
             if (it.isSuccessful){
                 Toast.makeText(context, "Register successful", Toast.LENGTH_SHORT).show()
                 navController.navigate(ROUT_UPLOAD)
+            }else{
+                Toast.makeText(context, "${it.exception!!.message}", Toast.LENGTH_SHORT).show()
             }
         }
     }
